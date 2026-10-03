@@ -1,0 +1,76 @@
+{
+ "cfg": {
+  "exp_id": "loss-mse-lr3",
+  "group": "loss",
+  "description": "MSE tr\u00ean one-hot, lr=3 (baseline lr \u00d710)",
+  "loss": "mse",
+  "optimizer": "sgd_momentum",
+  "lr": 3.0,
+  "weight_decay": 0.0,
+  "momentum": 0.9,
+  "batch": 512,
+  "epochs": 20,
+  "hidden": [
+   256,
+   128
+  ],
+  "dropout": 0.0,
+  "init": "he",
+  "clip_norm": null,
+  "precision": "fp32",
+  "scheduler": null,
+  "seed": 1
+ },
+ "history": {
+  "epoch": [
+   1
+  ],
+  "train_loss": [
+   null
+  ],
+  "val_loss": [
+   null
+  ],
+  "val_acc": [
+   0.364600589488178
+  ],
+  "val_macro_f1": [
+   0.07633852557230245
+  ],
+  "grad_norm": [
+   4765421.0
+  ],
+  "grad_norm_max": [
+   17822138.0
+  ],
+  "grad_norm_p50": [
+   135.94683837890625
+  ],
+  "clip_frac": [
+   0.0
+  ],
+  "epoch_time_s": [
+   0.09772140000131913
+  ]
+ },
+ "summary": {
+  "step0_loss": 0.6358503676233299,
+  "best_val_loss": null,
+  "best_epoch": null,
+  "final_train_loss": null,
+  "final_val_loss": null,
+  "val_acc": null,
+  "val_macro_f1": null,
+  "time_per_epoch_s": 0.09772140000131913,
+  "peak_mem_MB": 181.80615234375,
+  "diverged": true,
+  "act_std_step0": [
+   0.6609023213386536,
+   0.6403592824935913,
+   0.5772839188575745
+  ],
+  "skipped_steps": 46,
+  "clip_frac_mean": 0.0,
+  "n_epochs_run": 1
+ }
+}
